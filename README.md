@@ -12,7 +12,7 @@ Each folder under `projects/` is a self-contained mini–research study with:
 
 ### 1. RDD-VA: Return Distribution Diagnostics for a Volatile Asset (NIFTY, 2023–2024)
 
-Folder: `projects/RDD_VA_NIFTY_2023_2024/`
+Folder: `projects/Intraday_Volatility_and_Distribution_Explorer/`
 
 - Analyses daily log returns of NIFTY (^NSEI) over ~1 year
 - Tests the Gaussian (Normal) assumption commonly used in risk models
@@ -25,4 +25,4 @@ Folder: `projects/RDD_VA_NIFTY_2023_2024/`
   - Q–Q plot vs Normal
   - Rolling skewness and excess kurtosis
 
-More details are inside the project-level README.
+More details are inside the project section.
