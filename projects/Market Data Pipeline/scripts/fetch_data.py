@@ -348,7 +348,7 @@ if __name__ == "__main__":
         start="2026-01-01",
         end=end_date,
         interval="1d",
-        file_format="parquet"
+        file_format="csv"
     )
     
     

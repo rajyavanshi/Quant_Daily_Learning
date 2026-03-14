@@ -9,7 +9,18 @@ from pathlib import Path
 
 
 BASE_DIR = Path(__file__).resolve().parents[1] # project root
+
 RAW_DATA_DIR = BASE_DIR / "data" / "raw" # raw data directory
+
+# ---------------------------------------------------
+# NEW ADDITION:
+# Added paths for cleaned and processed datasets
+# This allows the loader to access all pipeline stages
+# ---------------------------------------------------
+
+CLEANED_DATA_DIR = BASE_DIR / "data" / "cleaned"
+PROCESSED_DATA_DIR = BASE_DIR / "data" / "processed"
+
 
 class DataLoader:
     """
@@ -17,20 +28,57 @@ class DataLoader:
 
     A utility class for loading stored market data for analysis.
     """
-    def __init__(self, file_format="parquet" ):
+
+    def __init__(self, file_format="parquet", data_stage="processed" ):
         """
         Constructor for DataLoader
         
         Parameters:
         - file_format: str, either "parquet" or "csv", default is "parquet"
+
+        # ---------------------------------------------------
+        # NEW PARAMETER:
+        # data_stage determines which layer of the pipeline
+        # to read data from.
+        #
+        # Options:
+        # raw       → original downloaded data
+        # cleaned   → validated OHLCV data
+        # processed → feature engineered dataset
+        #
+        # Default = processed (most analysis uses this)
+        # ---------------------------------------------------
         """
-        
+
         if file_format not in ["parquet", "csv"]:
             raise ValueError("file_format must be either 'parquet' or 'csv'")
+
+        # ---------------------------------------------------
+        # NEW VALIDATION:
+        # ensure data_stage is valid
+        # ---------------------------------------------------
+        if data_stage not in ["raw", "cleaned", "processed"]:
+            raise ValueError("data_stage must be 'raw', 'cleaned', or 'processed'")
+
         self.file_format = file_format
-        self.data_dir = RAW_DATA_DIR / file_format # directory where data is stored based on format
-        
-    
+        self.data_stage = data_stage
+
+        # ---------------------------------------------------
+        # NEW LOGIC:
+        # Select the correct directory depending on
+        # the pipeline stage requested
+        # ---------------------------------------------------
+
+        if data_stage == "raw":
+            self.data_dir = RAW_DATA_DIR / file_format
+
+        elif data_stage == "cleaned":
+            self.data_dir = CLEANED_DATA_DIR / file_format
+
+        elif data_stage == "processed":
+            self.data_dir = PROCESSED_DATA_DIR / file_format
+
+
     # ---------------------------------------------------
     # Load Single Ticker Data
     # ---------------------------------------------------
@@ -47,8 +95,11 @@ class DataLoader:
         Returns:
         - df: pd.DataFrame, the loaded data for the ticker
         """
+
         file_ext = "parquet" if self.file_format == "parquet" else "csv" # determine file extension based on format
+
         file_name = f"{ticker.replace('.', '_')}_{interval}.{file_ext}" # construct file name based on ticker, interval, and file format
+
         file_path = self.data_dir / file_name # full path to the data file
         
         if not file_path.exists():
@@ -62,15 +113,32 @@ class DataLoader:
         # Normalize column names to standard format (Open, High, Low, Close, Volume)
         if isinstance(df.columns, pd.MultiIndex):
             df.columns = df.columns.get_level_values(-1) # if columns are multi-indexed, select the second level (e.g., Open, High, Low, Close, Volume)
+
         df = df.loc[:,~df.columns.duplicated()] # remove duplicate columns if any
         
-        expected_columns = ["Open", "High", "Low", "Close", "Volume"]
-        df = df[[c for c in expected_columns if c in df.columns]] # keep only OHLCV columns
+        # ---------------------------------------------------
+        # NEW CONDITION:
+        # For raw and cleaned data we enforce OHLCV schema.
+        # For processed data we keep all engineered features.
+        # ---------------------------------------------------
+
+        if self.data_stage != "processed":
+
+            expected_columns = ["Open", "High", "Low", "Close", "Volume"]
+
+            df = df[[c for c in expected_columns if c in df.columns]]
+        
+        
+
         df.index = pd.to_datetime(df.index) # ensure index is in datetime format
+
         df.sort_index(inplace=True) # sort by date just in case
+
         df.index.name = "Date" # rename index to "Date"
+
         return df 
     
+
     # ---------------------------------------------------
     # Load Multiple Tickers Data -> This will return in stacked format
     # ---------------------------------------------------
@@ -87,29 +155,33 @@ class DataLoader:
         Returns:
         - dict, a dictionary with ticker symbols as keys and their corresponding dataframes as values
         """
+
         data = {} # initialize empty dictionary to store dataframes for each ticker
         
         for ticker in tickers:
             try:
+
                 df = self.load_ticker_data(ticker, interval) # load data for each ticker
-                # df.index = pd.to_datetime(df.index) # ensure index is in datetime format
+
                 data[ticker] = df # add dataframe to dictionary with ticker as key
+
             except Exception as e:
+
                 print(f"Error loading data for ticker: {ticker}. Error: {e}")
         
         return data
         
-    
-    
-    
+
     # =====================================================
     # Load Price Matrix for Multiple Tickers -> This will return in unstacked format
     # =====================================================
+
     def load_price_matrix(self, tickers,interval)-> pd.DataFrame:
         """
         Load price matrix for multiple tickers
         
-        Create aligned price matrix with dates as index and tickers as columns containing the closing prices. This is useful for time series analysis and modeling.
+        Create aligned price matrix with dates as index and tickers as columns containing the closing prices. 
+        This is useful for time series analysis and modeling.
         
         Parameters:
         - tickers: list of str, the ticker symbols to load data for
@@ -118,12 +190,16 @@ class DataLoader:
         Returns:
         - price_matrix: pd.DataFrame, a dataframe with dates as index and tickers as columns containing the closing prices
         """
+
         data_dict = self.load_multiple_tickers(tickers, interval) # load data for multiple tickers
-        price_matrix = pd.concat({ticker: df['Close'] for ticker, df in data_dict.items() if 'Close' in df.columns}, axis=1) # create price matrix with closing prices for tickers that have 'Close' column
+
+        price_matrix = pd.concat(
+            {ticker: df['Close'] for ticker, df in data_dict.items() if 'Close' in df.columns},
+            axis=1
+        ) # create price matrix with closing prices for tickers that have 'Close' column
         
         price_matrix = price_matrix.sort_index() # sort by date just in case
+
         price_matrix = price_matrix.dropna(how="all") # drop rows where all values are NaN (i.e., dates where no tickers have data)
+
         return price_matrix
-       
-    
-    
