@@ -1,0 +1,30 @@
+2026-03-15 02:16:42,790 | INFO | Cleaning dataset for ADANIPORTS.NS
+2026-03-15 02:16:42,998 | INFO | Cleaning dataset for RELIANCE.NS
+2026-03-15 02:16:43,006 | INFO | Cleaning dataset for TCS.NS
+2026-03-15 02:16:43,012 | INFO | Cleaning dataset for INFY.NS
+2026-03-15 02:16:43,019 | INFO | Cleaning dataset for HDFCBANK.NS
+2026-03-15 02:17:07,977 | INFO | Cleaning dataset for ADANIPORTS.NS
+2026-03-15 02:17:07,991 | INFO | Cleaning dataset for RELIANCE.NS
+2026-03-15 02:17:07,996 | INFO | Cleaning dataset for TCS.NS
+2026-03-15 02:17:08,001 | INFO | Cleaning dataset for INFY.NS
+2026-03-15 02:17:08,006 | INFO | Cleaning dataset for HDFCBANK.NS
+2026-03-15 02:20:05,616 | INFO | Cleaning dataset for ADANIPORTS.NS
+2026-03-15 02:20:05,629 | INFO | Cleaning dataset for RELIANCE.NS
+2026-03-15 02:20:05,634 | INFO | Cleaning dataset for TCS.NS
+2026-03-15 02:20:05,639 | INFO | Cleaning dataset for INFY.NS
+2026-03-15 02:20:05,643 | INFO | Cleaning dataset for HDFCBANK.NS
+2026-03-15 02:47:56,198 | INFO | Cleaning dataset for ADANIPORTS.NS
+2026-03-15 02:47:56,207 | WARNING | 2 missing timestamps detected
+2026-03-15 02:47:56,207 | WARNING | Example missing dates: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:47:56,212 | INFO | Cleaning dataset for RELIANCE.NS
+2026-03-15 02:47:56,216 | WARNING | 2 missing timestamps detected
+2026-03-15 02:47:56,216 | WARNING | Example missing dates: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:47:56,219 | INFO | Cleaning dataset for TCS.NS
+2026-03-15 02:47:56,222 | WARNING | 2 missing timestamps detected
+2026-03-15 02:47:56,222 | WARNING | Example missing dates: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:47:56,225 | INFO | Cleaning dataset for INFY.NS
+2026-03-15 02:47:56,228 | WARNING | 2 missing timestamps detected
+2026-03-15 02:47:56,229 | WARNING | Example missing dates: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:47:56,231 | INFO | Cleaning dataset for HDFCBANK.NS
+2026-03-15 02:47:56,234 | WARNING | 2 missing timestamps detected
+2026-03-15 02:47:56,235 | WARNING | Example missing dates: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)

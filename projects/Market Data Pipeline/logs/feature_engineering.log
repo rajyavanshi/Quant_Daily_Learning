@@ -1,0 +1,45 @@
+2026-03-15 02:22:43,187 | INFO | Generating features for ADANIPORTS.NS
+2026-03-15 02:22:43,221 | ERROR | Feature generation failed for ADANIPORTS.NS: module 'pandas' has no attribute 'np'
+2026-03-15 02:22:43,221 | INFO | Generating features for RELIANCE.NS
+2026-03-15 02:22:43,224 | ERROR | Feature generation failed for RELIANCE.NS: module 'pandas' has no attribute 'np'
+2026-03-15 02:22:43,224 | INFO | Generating features for TCS.NS
+2026-03-15 02:22:43,227 | ERROR | Feature generation failed for TCS.NS: module 'pandas' has no attribute 'np'
+2026-03-15 02:22:43,227 | INFO | Generating features for INFY.NS
+2026-03-15 02:22:43,230 | ERROR | Feature generation failed for INFY.NS: module 'pandas' has no attribute 'np'
+2026-03-15 02:22:43,230 | INFO | Generating features for HDFCBANK.NS
+2026-03-15 02:22:43,233 | ERROR | Feature generation failed for HDFCBANK.NS: module 'pandas' has no attribute 'np'
+2026-03-15 02:24:09,696 | INFO | Generating features for ADANIPORTS.NS
+2026-03-15 02:24:09,729 | ERROR | Feature generation failed for ADANIPORTS.NS: module 'pandas' has no attribute 'np'
+2026-03-15 02:24:09,730 | INFO | Generating features for RELIANCE.NS
+2026-03-15 02:24:09,733 | ERROR | Feature generation failed for RELIANCE.NS: module 'pandas' has no attribute 'np'
+2026-03-15 02:24:09,733 | INFO | Generating features for TCS.NS
+2026-03-15 02:24:09,735 | ERROR | Feature generation failed for TCS.NS: module 'pandas' has no attribute 'np'
+2026-03-15 02:24:09,735 | INFO | Generating features for INFY.NS
+2026-03-15 02:24:09,738 | ERROR | Feature generation failed for INFY.NS: module 'pandas' has no attribute 'np'
+2026-03-15 02:24:09,738 | INFO | Generating features for HDFCBANK.NS
+2026-03-15 02:24:09,741 | ERROR | Feature generation failed for HDFCBANK.NS: module 'pandas' has no attribute 'np'
+2026-03-15 02:26:31,444 | INFO | Generating features for ADANIPORTS.NS
+2026-03-15 02:26:31,487 | INFO | Generating features for RELIANCE.NS
+2026-03-15 02:26:31,496 | INFO | Generating features for TCS.NS
+2026-03-15 02:26:31,504 | INFO | Generating features for INFY.NS
+2026-03-15 02:26:31,512 | INFO | Generating features for HDFCBANK.NS
+2026-03-15 02:26:58,313 | INFO | Generating features for ADANIPORTS.NS
+2026-03-15 02:26:58,333 | INFO | Generating features for RELIANCE.NS
+2026-03-15 02:26:58,342 | INFO | Generating features for TCS.NS
+2026-03-15 02:26:58,349 | INFO | Generating features for INFY.NS
+2026-03-15 02:26:58,357 | INFO | Generating features for HDFCBANK.NS
+2026-03-15 02:29:10,702 | INFO | Generating features for ADANIPORTS.NS
+2026-03-15 02:29:10,715 | INFO | Generating features for RELIANCE.NS
+2026-03-15 02:29:10,721 | INFO | Generating features for TCS.NS
+2026-03-15 02:29:10,727 | INFO | Generating features for INFY.NS
+2026-03-15 02:29:10,734 | INFO | Generating features for HDFCBANK.NS
+2026-03-15 02:29:43,429 | INFO | Generating features for ADANIPORTS.NS
+2026-03-15 02:29:43,444 | INFO | Generating features for RELIANCE.NS
+2026-03-15 02:29:43,452 | INFO | Generating features for TCS.NS
+2026-03-15 02:29:43,459 | INFO | Generating features for INFY.NS
+2026-03-15 02:29:43,467 | INFO | Generating features for HDFCBANK.NS
+2026-03-15 02:48:04,343 | INFO | Generating features for ADANIPORTS.NS
+2026-03-15 02:48:04,358 | INFO | Generating features for RELIANCE.NS
+2026-03-15 02:48:04,366 | INFO | Generating features for TCS.NS
+2026-03-15 02:48:04,373 | INFO | Generating features for INFY.NS
+2026-03-15 02:48:04,381 | INFO | Generating features for HDFCBANK.NS

@@ -754,3 +754,404 @@ __filename: string
                '2026-01-26', '2026-03-03'],
               dtype='datetime64[ns]', freq=None)
 2026-03-12 01:49:56,125 | INFO | Data for ticker: RELIANCE.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\RELIANCE_NS_1d.parquet
+2026-03-14 15:58:53,745 | INFO | Fetching data for tickers: ['ADANIPORTS.NS', 'RELIANCE.NS', 'TCS.NS', 'INFY.NS', 'HDFCBANK.NS'] from 2026-01-01 to 2026-03-14 with interval 1d
+2026-03-14 15:58:55,762 | INFO | Data fetching successful
+2026-03-14 15:58:55,764 | INFO | File already exists for ticker: ADANIPORTS.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\ADANIPORTS_NS_1d.parquet. Updating dataset.
+2026-03-14 15:59:00,869 | WARNING | Missing candles detected for ticker: ADANIPORTS.NS. Missing timestamps: DatetimeIndex(['2025-03-14', '2025-03-31', '2025-04-10', '2025-04-14',
+               '2025-04-18', '2025-05-01', '2025-08-15', '2025-08-27',
+               '2025-10-02', '2025-10-22', '2025-11-05', '2025-12-25',
+               '2026-01-26', '2026-03-03'],
+              dtype='datetime64[ns]', freq=None)
+2026-03-14 15:59:00,870 | WARNING | Missing candles detected for ticker: ADANIPORTS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-14 15:59:00,873 | INFO | Data for ticker: ADANIPORTS.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\ADANIPORTS_NS_1d.parquet
+2026-03-14 15:59:00,875 | INFO | File already exists for ticker: RELIANCE.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\RELIANCE_NS_1d.parquet. Updating dataset.
+2026-03-14 15:59:00,882 | WARNING | Missing candles detected for ticker: RELIANCE.NS. Missing timestamps: DatetimeIndex(['2025-03-14', '2025-03-31', '2025-04-10', '2025-04-14',
+               '2025-04-18', '2025-05-01', '2025-08-15', '2025-08-27',
+               '2025-10-02', '2025-10-22', '2025-11-05', '2025-12-25',
+               '2026-01-26', '2026-03-03'],
+              dtype='datetime64[ns]', freq=None)
+2026-03-14 15:59:00,884 | WARNING | Missing candles detected for ticker: RELIANCE.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-14 15:59:00,886 | INFO | Data for ticker: RELIANCE.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\RELIANCE_NS_1d.parquet
+2026-03-14 15:59:00,887 | INFO | File already exists for ticker: TCS.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\TCS_NS_1d.parquet. Updating dataset.
+2026-03-14 15:59:00,893 | WARNING | Missing candles detected for ticker: TCS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-14 15:59:00,895 | WARNING | Missing candles detected for ticker: TCS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-14 15:59:00,897 | INFO | Data for ticker: TCS.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\TCS_NS_1d.parquet
+2026-03-14 15:59:00,899 | INFO | File already exists for ticker: INFY.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\INFY_NS_1d.parquet. Updating dataset.
+2026-03-14 15:59:00,904 | WARNING | Missing candles detected for ticker: INFY.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-14 15:59:00,905 | WARNING | Missing candles detected for ticker: INFY.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-14 15:59:00,907 | INFO | Data for ticker: INFY.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\INFY_NS_1d.parquet
+2026-03-14 15:59:00,909 | INFO | File already exists for ticker: HDFCBANK.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\HDFCBANK_NS_1d.parquet. Updating dataset.
+2026-03-14 15:59:00,914 | WARNING | Missing candles detected for ticker: HDFCBANK.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-14 15:59:00,916 | WARNING | Missing candles detected for ticker: HDFCBANK.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-14 15:59:00,917 | INFO | Data for ticker: HDFCBANK.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\HDFCBANK_NS_1d.parquet
+2026-03-15 02:17:48,048 | INFO | Fetching data for tickers: ['ADANIPORTS.NS', 'RELIANCE.NS', 'TCS.NS', 'INFY.NS', 'HDFCBANK.NS'] from 2026-01-01 to 2026-03-15 with interval 1d
+2026-03-15 02:17:50,563 | INFO | Data fetching successful
+2026-03-15 02:17:50,565 | INFO | File already exists for ticker: ADANIPORTS.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\ADANIPORTS_NS_1d.parquet. Updating dataset.
+2026-03-15 02:17:50,600 | WARNING | Missing candles detected for ticker: ADANIPORTS.NS. Missing timestamps: DatetimeIndex(['2025-03-14', '2025-03-31', '2025-04-10', '2025-04-14',
+               '2025-04-18', '2025-05-01', '2025-08-15', '2025-08-27',
+               '2025-10-02', '2025-10-22', '2025-11-05', '2025-12-25',
+               '2026-01-26', '2026-03-03'],
+              dtype='datetime64[ns]', freq=None)
+2026-03-15 02:17:50,602 | WARNING | Missing candles detected for ticker: ADANIPORTS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:17:50,605 | INFO | Data for ticker: ADANIPORTS.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\ADANIPORTS_NS_1d.parquet
+2026-03-15 02:17:50,607 | INFO | File already exists for ticker: RELIANCE.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\RELIANCE_NS_1d.parquet. Updating dataset.
+2026-03-15 02:17:50,614 | WARNING | Missing candles detected for ticker: RELIANCE.NS. Missing timestamps: DatetimeIndex(['2025-03-14', '2025-03-31', '2025-04-10', '2025-04-14',
+               '2025-04-18', '2025-05-01', '2025-08-15', '2025-08-27',
+               '2025-10-02', '2025-10-22', '2025-11-05', '2025-12-25',
+               '2026-01-26', '2026-03-03'],
+              dtype='datetime64[ns]', freq=None)
+2026-03-15 02:17:50,615 | WARNING | Missing candles detected for ticker: RELIANCE.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:17:50,618 | INFO | Data for ticker: RELIANCE.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\RELIANCE_NS_1d.parquet
+2026-03-15 02:17:50,619 | INFO | File already exists for ticker: TCS.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\TCS_NS_1d.parquet. Updating dataset.
+2026-03-15 02:17:50,625 | WARNING | Missing candles detected for ticker: TCS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:17:50,626 | WARNING | Missing candles detected for ticker: TCS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:17:50,628 | INFO | Data for ticker: TCS.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\TCS_NS_1d.parquet
+2026-03-15 02:17:50,630 | INFO | File already exists for ticker: INFY.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\INFY_NS_1d.parquet. Updating dataset.
+2026-03-15 02:17:50,635 | WARNING | Missing candles detected for ticker: INFY.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:17:50,637 | WARNING | Missing candles detected for ticker: INFY.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:17:50,639 | INFO | Data for ticker: INFY.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\INFY_NS_1d.parquet
+2026-03-15 02:17:50,641 | INFO | File already exists for ticker: HDFCBANK.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\HDFCBANK_NS_1d.parquet. Updating dataset.
+2026-03-15 02:17:50,646 | WARNING | Missing candles detected for ticker: HDFCBANK.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:17:50,647 | WARNING | Missing candles detected for ticker: HDFCBANK.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:17:50,649 | INFO | Data for ticker: HDFCBANK.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\HDFCBANK_NS_1d.parquet
+2026-03-15 02:19:11,404 | INFO | Fetching data for tickers: ['ADANIPORTS.NS', 'RELIANCE.NS', 'TCS.NS', 'INFY.NS', 'HDFCBANK.NS'] from 2026-01-01 to 2026-03-15 with interval 1d
+2026-03-15 02:19:13,942 | INFO | Data fetching successful
+2026-03-15 02:19:13,944 | INFO | File already exists for ticker: ADANIPORTS.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\ADANIPORTS_NS_1d.parquet. Updating dataset.
+2026-03-15 02:19:13,981 | WARNING | Missing candles detected for ticker: ADANIPORTS.NS. Missing timestamps: DatetimeIndex(['2025-03-14', '2025-03-31', '2025-04-10', '2025-04-14',
+               '2025-04-18', '2025-05-01', '2025-08-15', '2025-08-27',
+               '2025-10-02', '2025-10-22', '2025-11-05', '2025-12-25',
+               '2026-01-26', '2026-03-03'],
+              dtype='datetime64[ns]', freq=None)
+2026-03-15 02:19:13,983 | WARNING | Missing candles detected for ticker: ADANIPORTS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:13,985 | INFO | Data for ticker: ADANIPORTS.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\ADANIPORTS_NS_1d.parquet
+2026-03-15 02:19:13,987 | INFO | File already exists for ticker: RELIANCE.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\RELIANCE_NS_1d.parquet. Updating dataset.
+2026-03-15 02:19:13,995 | WARNING | Missing candles detected for ticker: RELIANCE.NS. Missing timestamps: DatetimeIndex(['2025-03-14', '2025-03-31', '2025-04-10', '2025-04-14',
+               '2025-04-18', '2025-05-01', '2025-08-15', '2025-08-27',
+               '2025-10-02', '2025-10-22', '2025-11-05', '2025-12-25',
+               '2026-01-26', '2026-03-03'],
+              dtype='datetime64[ns]', freq=None)
+2026-03-15 02:19:13,997 | WARNING | Missing candles detected for ticker: RELIANCE.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:13,999 | INFO | Data for ticker: RELIANCE.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\RELIANCE_NS_1d.parquet
+2026-03-15 02:19:14,001 | INFO | File already exists for ticker: TCS.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\TCS_NS_1d.parquet. Updating dataset.
+2026-03-15 02:19:14,005 | WARNING | Missing candles detected for ticker: TCS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:14,007 | WARNING | Missing candles detected for ticker: TCS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:14,009 | INFO | Data for ticker: TCS.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\TCS_NS_1d.parquet
+2026-03-15 02:19:14,011 | INFO | File already exists for ticker: INFY.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\INFY_NS_1d.parquet. Updating dataset.
+2026-03-15 02:19:14,016 | WARNING | Missing candles detected for ticker: INFY.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:14,018 | WARNING | Missing candles detected for ticker: INFY.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:14,019 | INFO | Data for ticker: INFY.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\INFY_NS_1d.parquet
+2026-03-15 02:19:14,021 | INFO | File already exists for ticker: HDFCBANK.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\HDFCBANK_NS_1d.parquet. Updating dataset.
+2026-03-15 02:19:14,026 | WARNING | Missing candles detected for ticker: HDFCBANK.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:14,027 | WARNING | Missing candles detected for ticker: HDFCBANK.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:14,029 | INFO | Data for ticker: HDFCBANK.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\HDFCBANK_NS_1d.parquet
+2026-03-15 02:19:48,802 | INFO | Fetching data for tickers: ['ADANIPORTS.NS', 'RELIANCE.NS', 'TCS.NS', 'INFY.NS', 'HDFCBANK.NS'] from 2026-01-01 to 2026-03-15 with interval 1d
+2026-03-15 02:19:50,596 | INFO | Data fetching successful
+2026-03-15 02:19:50,598 | INFO | File already exists for ticker: ADANIPORTS.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\ADANIPORTS_NS_1d.csv. Updating dataset.
+2026-03-15 02:19:50,603 | WARNING | Missing candles detected for ticker: ADANIPORTS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:50,605 | WARNING | Missing candles detected for ticker: ADANIPORTS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:50,607 | INFO | Data for ticker: ADANIPORTS.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\ADANIPORTS_NS_1d.csv
+2026-03-15 02:19:50,609 | INFO | File already exists for ticker: RELIANCE.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\RELIANCE_NS_1d.csv. Updating dataset.
+2026-03-15 02:19:50,613 | WARNING | Missing candles detected for ticker: RELIANCE.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:50,615 | WARNING | Missing candles detected for ticker: RELIANCE.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:50,616 | INFO | Data for ticker: RELIANCE.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\RELIANCE_NS_1d.csv
+2026-03-15 02:19:50,618 | INFO | File already exists for ticker: TCS.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\TCS_NS_1d.csv. Updating dataset.
+2026-03-15 02:19:50,623 | WARNING | Missing candles detected for ticker: TCS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:50,624 | WARNING | Missing candles detected for ticker: TCS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:50,625 | INFO | Data for ticker: TCS.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\TCS_NS_1d.csv
+2026-03-15 02:19:50,627 | INFO | File already exists for ticker: INFY.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\INFY_NS_1d.csv. Updating dataset.
+2026-03-15 02:19:50,631 | WARNING | Missing candles detected for ticker: INFY.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:50,633 | WARNING | Missing candles detected for ticker: INFY.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:50,634 | INFO | Data for ticker: INFY.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\INFY_NS_1d.csv
+2026-03-15 02:19:50,636 | INFO | File already exists for ticker: HDFCBANK.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\HDFCBANK_NS_1d.csv. Updating dataset.
+2026-03-15 02:19:50,640 | WARNING | Missing candles detected for ticker: HDFCBANK.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:50,641 | WARNING | Missing candles detected for ticker: HDFCBANK.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:19:50,643 | INFO | Data for ticker: HDFCBANK.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\HDFCBANK_NS_1d.csv
+2026-03-15 02:57:39,898 | INFO | Fetching data for tickers: ['ADANIPORTS.NS', 'RELIANCE.NS', 'TCS.NS', 'INFY.NS', 'HDFCBANK.NS'] from 2026-01-01 to 2026-03-15 with interval 1d
+2026-03-15 02:57:41,460 | INFO | Data fetching successful
+2026-03-15 02:57:41,462 | INFO | File already exists for ticker: ADANIPORTS.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\ADANIPORTS_NS_1d.csv. Updating dataset.
+2026-03-15 02:57:41,467 | WARNING | Missing candles detected for ticker: ADANIPORTS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:57:41,469 | WARNING | Missing candles detected for ticker: ADANIPORTS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:57:41,471 | INFO | Data for ticker: ADANIPORTS.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\ADANIPORTS_NS_1d.csv
+2026-03-15 02:57:41,473 | INFO | File already exists for ticker: RELIANCE.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\RELIANCE_NS_1d.csv. Updating dataset.
+2026-03-15 02:57:41,477 | WARNING | Missing candles detected for ticker: RELIANCE.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:57:41,479 | WARNING | Missing candles detected for ticker: RELIANCE.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:57:41,480 | INFO | Data for ticker: RELIANCE.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\RELIANCE_NS_1d.csv
+2026-03-15 02:57:41,481 | INFO | File already exists for ticker: TCS.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\TCS_NS_1d.csv. Updating dataset.
+2026-03-15 02:57:41,486 | WARNING | Missing candles detected for ticker: TCS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:57:41,487 | WARNING | Missing candles detected for ticker: TCS.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:57:41,489 | INFO | Data for ticker: TCS.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\TCS_NS_1d.csv
+2026-03-15 02:57:41,490 | INFO | File already exists for ticker: INFY.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\INFY_NS_1d.csv. Updating dataset.
+2026-03-15 02:57:41,494 | WARNING | Missing candles detected for ticker: INFY.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:57:41,496 | WARNING | Missing candles detected for ticker: INFY.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:57:41,497 | INFO | Data for ticker: INFY.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\INFY_NS_1d.csv
+2026-03-15 02:57:41,499 | INFO | File already exists for ticker: HDFCBANK.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\HDFCBANK_NS_1d.csv. Updating dataset.
+2026-03-15 02:57:41,504 | WARNING | Missing candles detected for ticker: HDFCBANK.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:57:41,505 | WARNING | Missing candles detected for ticker: HDFCBANK.NS. Missing timestamps: DatetimeIndex(['2026-01-26', '2026-03-03'], dtype='datetime64[us]', freq=None)
+2026-03-15 02:57:41,506 | INFO | Data for ticker: HDFCBANK.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\csv\HDFCBANK_NS_1d.csv
+2026-03-15 03:08:53,206 | INFO | Starting Market Data Pipeline
+2026-03-15 03:08:53,206 | INFO | Step 1: Fetching Market Data
+2026-03-15 03:08:53,207 | INFO | Fetching data for tickers: ['ADANIPORTS.NS', 'RELIANCE.NS', 'TCS.NS', 'INFY.NS', 'HDFCBANK.NS'] from 2020-01-01 to 2026-03-15 with interval 1d
+2026-03-15 03:08:55,777 | INFO | Data fetching successful
+2026-03-15 03:08:55,780 | INFO | File already exists for ticker: ADANIPORTS.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\ADANIPORTS_NS_1d.parquet. Updating dataset.
+2026-03-15 03:08:55,831 | WARNING | Missing candles detected for ticker: ADANIPORTS.NS. Missing timestamps: DatetimeIndex(['2020-02-21', '2020-03-10', '2020-04-02', '2020-04-06',
+               '2020-04-10', '2020-04-14', '2020-05-01', '2020-05-25',
+               '2020-10-02', '2020-11-16', '2020-11-30', '2020-12-25',
+               '2021-01-26', '2021-03-11', '2021-03-29', '2021-04-02',
+               '2021-04-14', '2021-04-21', '2021-05-13', '2021-07-21',
+               '2021-08-19', '2021-09-10', '2021-10-15', '2021-11-05',
+               '2021-11-19', '2022-01-26', '2022-03-01', '2022-03-18',
+               '2022-04-14', '2022-04-15', '2022-05-03', '2022-08-09',
+               '2022-08-15', '2022-08-31', '2022-10-05', '2022-10-26',
+               '2022-11-08', '2023-01-26', '2023-03-07', '2023-03-30',
+               '2023-04-04', '2023-04-07', '2023-04-14', '2023-05-01',
+               '2023-06-29', '2023-08-15', '2023-09-19', '2023-10-02',
+               '2023-10-24', '2023-11-14', '2023-11-27', '2023-12-25',
+               '2024-01-22', '2024-01-26', '2024-03-08', '2024-03-25',
+               '2024-03-29', '2024-04-11', '2024-04-17', '2024-05-01',
+               '2024-05-20', '2024-06-17', '2024-07-17', '2024-08-15',
+               '2024-10-02', '2024-11-15', '2024-11-20', '2024-12-25',
+               '2025-02-26', '2025-03-14', '2025-03-31', '2025-04-10',
+               '2025-04-14', '2025-04-18', '2025-05-01', '2025-08-15',
+               '2025-08-27', '2025-10-02', '2025-10-22', '2025-11-05',
+               '2025-12-25', '2026-01-26', '2026-03-03'],
+              dtype='datetime64[ns]', freq=None)
+2026-03-15 03:08:55,848 | WARNING | Missing candles detected for ticker: ADANIPORTS.NS. Missing timestamps: DatetimeIndex(['2020-02-21', '2020-03-10', '2020-04-02', '2020-04-06',
+               '2020-04-10', '2020-04-14', '2020-05-01', '2020-05-25',
+               '2020-10-02', '2020-11-16', '2020-11-30', '2020-12-25',
+               '2021-01-26', '2021-03-11', '2021-03-29', '2021-04-02',
+               '2021-04-14', '2021-04-21', '2021-05-13', '2021-07-21',
+               '2021-08-19', '2021-09-10', '2021-10-15', '2021-11-05',
+               '2021-11-19', '2022-01-26', '2022-03-01', '2022-03-18',
+               '2022-04-14', '2022-04-15', '2022-05-03', '2022-08-09',
+               '2022-08-15', '2022-08-31', '2022-10-05', '2022-10-26',
+               '2022-11-08', '2023-01-26', '2023-03-07', '2023-03-30',
+               '2023-04-04', '2023-04-07', '2023-04-14', '2023-05-01',
+               '2023-06-29', '2023-08-15', '2023-09-19', '2023-10-02',
+               '2023-10-24', '2023-11-14', '2023-11-27', '2023-12-25',
+               '2024-01-22', '2024-01-26', '2024-03-08', '2024-03-25',
+               '2024-03-29', '2024-04-11', '2024-04-17', '2024-05-01',
+               '2024-05-20', '2024-06-17', '2024-07-17', '2024-08-15',
+               '2024-10-02', '2024-11-15', '2024-11-20', '2024-12-25',
+               '2025-02-26', '2025-03-14', '2025-03-31', '2025-04-10',
+               '2025-04-14', '2025-04-18', '2025-05-01', '2025-08-15',
+               '2025-08-27', '2025-10-02', '2025-10-22', '2025-11-05',
+               '2025-12-25', '2026-01-26', '2026-03-03'],
+              dtype='datetime64[us]', freq=None)
+2026-03-15 03:08:55,853 | INFO | Data for ticker: ADANIPORTS.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\ADANIPORTS_NS_1d.parquet
+2026-03-15 03:08:55,856 | INFO | File already exists for ticker: RELIANCE.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\RELIANCE_NS_1d.parquet. Updating dataset.
+2026-03-15 03:08:55,878 | WARNING | Missing candles detected for ticker: RELIANCE.NS. Missing timestamps: DatetimeIndex(['2020-02-21', '2020-03-10', '2020-04-02', '2020-04-06',
+               '2020-04-10', '2020-04-14', '2020-05-01', '2020-05-25',
+               '2020-10-02', '2020-11-16', '2020-11-30', '2020-12-25',
+               '2021-01-26', '2021-03-11', '2021-03-29', '2021-04-02',
+               '2021-04-14', '2021-04-21', '2021-05-13', '2021-07-21',
+               '2021-08-19', '2021-09-10', '2021-10-15', '2021-11-05',
+               '2021-11-19', '2022-01-26', '2022-03-01', '2022-03-18',
+               '2022-04-14', '2022-04-15', '2022-05-03', '2022-08-09',
+               '2022-08-15', '2022-08-31', '2022-10-05', '2022-10-26',
+               '2022-11-08', '2023-01-26', '2023-03-07', '2023-03-30',
+               '2023-04-04', '2023-04-07', '2023-04-14', '2023-05-01',
+               '2023-06-29', '2023-08-15', '2023-09-19', '2023-10-02',
+               '2023-10-24', '2023-11-14', '2023-11-27', '2023-12-25',
+               '2024-01-22', '2024-01-26', '2024-03-08', '2024-03-25',
+               '2024-03-29', '2024-04-11', '2024-04-17', '2024-05-01',
+               '2024-05-20', '2024-06-17', '2024-07-17', '2024-08-15',
+               '2024-10-02', '2024-11-15', '2024-11-20', '2024-12-25',
+               '2025-02-26', '2025-03-14', '2025-03-31', '2025-04-10',
+               '2025-04-14', '2025-04-18', '2025-05-01', '2025-08-15',
+               '2025-08-27', '2025-10-02', '2025-10-22', '2025-11-05',
+               '2025-12-25', '2026-01-26', '2026-03-03'],
+              dtype='datetime64[ns]', freq=None)
+2026-03-15 03:08:55,894 | WARNING | Missing candles detected for ticker: RELIANCE.NS. Missing timestamps: DatetimeIndex(['2020-02-21', '2020-03-10', '2020-04-02', '2020-04-06',
+               '2020-04-10', '2020-04-14', '2020-05-01', '2020-05-25',
+               '2020-10-02', '2020-11-16', '2020-11-30', '2020-12-25',
+               '2021-01-26', '2021-03-11', '2021-03-29', '2021-04-02',
+               '2021-04-14', '2021-04-21', '2021-05-13', '2021-07-21',
+               '2021-08-19', '2021-09-10', '2021-10-15', '2021-11-05',
+               '2021-11-19', '2022-01-26', '2022-03-01', '2022-03-18',
+               '2022-04-14', '2022-04-15', '2022-05-03', '2022-08-09',
+               '2022-08-15', '2022-08-31', '2022-10-05', '2022-10-26',
+               '2022-11-08', '2023-01-26', '2023-03-07', '2023-03-30',
+               '2023-04-04', '2023-04-07', '2023-04-14', '2023-05-01',
+               '2023-06-29', '2023-08-15', '2023-09-19', '2023-10-02',
+               '2023-10-24', '2023-11-14', '2023-11-27', '2023-12-25',
+               '2024-01-22', '2024-01-26', '2024-03-08', '2024-03-25',
+               '2024-03-29', '2024-04-11', '2024-04-17', '2024-05-01',
+               '2024-05-20', '2024-06-17', '2024-07-17', '2024-08-15',
+               '2024-10-02', '2024-11-15', '2024-11-20', '2024-12-25',
+               '2025-02-26', '2025-03-14', '2025-03-31', '2025-04-10',
+               '2025-04-14', '2025-04-18', '2025-05-01', '2025-08-15',
+               '2025-08-27', '2025-10-02', '2025-10-22', '2025-11-05',
+               '2025-12-25', '2026-01-26', '2026-03-03'],
+              dtype='datetime64[us]', freq=None)
+2026-03-15 03:08:55,899 | INFO | Data for ticker: RELIANCE.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\RELIANCE_NS_1d.parquet
+2026-03-15 03:08:55,902 | INFO | File already exists for ticker: TCS.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\TCS_NS_1d.parquet. Updating dataset.
+2026-03-15 03:08:55,922 | WARNING | Missing candles detected for ticker: TCS.NS. Missing timestamps: DatetimeIndex(['2020-02-21', '2020-03-10', '2020-04-02', '2020-04-06',
+               '2020-04-10', '2020-04-14', '2020-05-01', '2020-05-25',
+               '2020-10-02', '2020-11-16', '2020-11-30', '2020-12-25',
+               '2021-01-26', '2021-03-11', '2021-03-29', '2021-04-02',
+               '2021-04-14', '2021-04-21', '2021-05-13', '2021-07-21',
+               '2021-08-19', '2021-09-10', '2021-10-15', '2021-11-05',
+               '2021-11-19', '2022-01-26', '2022-03-01', '2022-03-18',
+               '2022-04-14', '2022-04-15', '2022-05-03', '2022-08-09',
+               '2022-08-15', '2022-08-31', '2022-10-05', '2022-10-26',
+               '2022-11-08', '2023-01-26', '2023-03-07', '2023-03-30',
+               '2023-04-04', '2023-04-07', '2023-04-14', '2023-05-01',
+               '2023-06-29', '2023-08-15', '2023-09-19', '2023-10-02',
+               '2023-10-24', '2023-11-14', '2023-11-27', '2023-12-25',
+               '2024-01-22', '2024-01-26', '2024-03-08', '2024-03-25',
+               '2024-03-29', '2024-04-11', '2024-04-17', '2024-05-01',
+               '2024-05-20', '2024-06-17', '2024-07-17', '2024-08-15',
+               '2024-10-02', '2024-11-15', '2024-11-20', '2024-12-25',
+               '2025-02-26', '2025-03-14', '2025-03-31', '2025-04-10',
+               '2025-04-14', '2025-04-18', '2025-05-01', '2025-08-15',
+               '2025-08-27', '2025-10-02', '2025-10-22', '2025-11-05',
+               '2025-12-25', '2026-01-26', '2026-03-03'],
+              dtype='datetime64[us]', freq=None)
+2026-03-15 03:08:55,939 | WARNING | Missing candles detected for ticker: TCS.NS. Missing timestamps: DatetimeIndex(['2020-02-21', '2020-03-10', '2020-04-02', '2020-04-06',
+               '2020-04-10', '2020-04-14', '2020-05-01', '2020-05-25',
+               '2020-10-02', '2020-11-16', '2020-11-30', '2020-12-25',
+               '2021-01-26', '2021-03-11', '2021-03-29', '2021-04-02',
+               '2021-04-14', '2021-04-21', '2021-05-13', '2021-07-21',
+               '2021-08-19', '2021-09-10', '2021-10-15', '2021-11-05',
+               '2021-11-19', '2022-01-26', '2022-03-01', '2022-03-18',
+               '2022-04-14', '2022-04-15', '2022-05-03', '2022-08-09',
+               '2022-08-15', '2022-08-31', '2022-10-05', '2022-10-26',
+               '2022-11-08', '2023-01-26', '2023-03-07', '2023-03-30',
+               '2023-04-04', '2023-04-07', '2023-04-14', '2023-05-01',
+               '2023-06-29', '2023-08-15', '2023-09-19', '2023-10-02',
+               '2023-10-24', '2023-11-14', '2023-11-27', '2023-12-25',
+               '2024-01-22', '2024-01-26', '2024-03-08', '2024-03-25',
+               '2024-03-29', '2024-04-11', '2024-04-17', '2024-05-01',
+               '2024-05-20', '2024-06-17', '2024-07-17', '2024-08-15',
+               '2024-10-02', '2024-11-15', '2024-11-20', '2024-12-25',
+               '2025-02-26', '2025-03-14', '2025-03-31', '2025-04-10',
+               '2025-04-14', '2025-04-18', '2025-05-01', '2025-08-15',
+               '2025-08-27', '2025-10-02', '2025-10-22', '2025-11-05',
+               '2025-12-25', '2026-01-26', '2026-03-03'],
+              dtype='datetime64[us]', freq=None)
+2026-03-15 03:08:55,943 | INFO | Data for ticker: TCS.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\TCS_NS_1d.parquet
+2026-03-15 03:08:55,946 | INFO | File already exists for ticker: INFY.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\INFY_NS_1d.parquet. Updating dataset.
+2026-03-15 03:08:55,966 | WARNING | Missing candles detected for ticker: INFY.NS. Missing timestamps: DatetimeIndex(['2020-02-21', '2020-03-10', '2020-04-02', '2020-04-06',
+               '2020-04-10', '2020-04-14', '2020-05-01', '2020-05-25',
+               '2020-10-02', '2020-11-16', '2020-11-30', '2020-12-25',
+               '2021-01-26', '2021-03-11', '2021-03-29', '2021-04-02',
+               '2021-04-14', '2021-04-21', '2021-05-13', '2021-07-21',
+               '2021-08-19', '2021-09-10', '2021-10-15', '2021-11-05',
+               '2021-11-19', '2022-01-26', '2022-03-01', '2022-03-18',
+               '2022-04-14', '2022-04-15', '2022-05-03', '2022-08-09',
+               '2022-08-15', '2022-08-31', '2022-10-05', '2022-10-26',
+               '2022-11-08', '2023-01-26', '2023-03-07', '2023-03-30',
+               '2023-04-04', '2023-04-07', '2023-04-14', '2023-05-01',
+               '2023-06-29', '2023-08-15', '2023-09-19', '2023-10-02',
+               '2023-10-24', '2023-11-14', '2023-11-27', '2023-12-25',
+               '2024-01-22', '2024-01-26', '2024-03-08', '2024-03-25',
+               '2024-03-29', '2024-04-11', '2024-04-17', '2024-05-01',
+               '2024-05-20', '2024-06-17', '2024-07-17', '2024-08-15',
+               '2024-10-02', '2024-11-15', '2024-11-20', '2024-12-25',
+               '2025-02-26', '2025-03-14', '2025-03-31', '2025-04-10',
+               '2025-04-14', '2025-04-18', '2025-05-01', '2025-08-15',
+               '2025-08-27', '2025-10-02', '2025-10-22', '2025-11-05',
+               '2025-12-25', '2026-01-26', '2026-03-03'],
+              dtype='datetime64[us]', freq=None)
+2026-03-15 03:08:55,983 | WARNING | Missing candles detected for ticker: INFY.NS. Missing timestamps: DatetimeIndex(['2020-02-21', '2020-03-10', '2020-04-02', '2020-04-06',
+               '2020-04-10', '2020-04-14', '2020-05-01', '2020-05-25',
+               '2020-10-02', '2020-11-16', '2020-11-30', '2020-12-25',
+               '2021-01-26', '2021-03-11', '2021-03-29', '2021-04-02',
+               '2021-04-14', '2021-04-21', '2021-05-13', '2021-07-21',
+               '2021-08-19', '2021-09-10', '2021-10-15', '2021-11-05',
+               '2021-11-19', '2022-01-26', '2022-03-01', '2022-03-18',
+               '2022-04-14', '2022-04-15', '2022-05-03', '2022-08-09',
+               '2022-08-15', '2022-08-31', '2022-10-05', '2022-10-26',
+               '2022-11-08', '2023-01-26', '2023-03-07', '2023-03-30',
+               '2023-04-04', '2023-04-07', '2023-04-14', '2023-05-01',
+               '2023-06-29', '2023-08-15', '2023-09-19', '2023-10-02',
+               '2023-10-24', '2023-11-14', '2023-11-27', '2023-12-25',
+               '2024-01-22', '2024-01-26', '2024-03-08', '2024-03-25',
+               '2024-03-29', '2024-04-11', '2024-04-17', '2024-05-01',
+               '2024-05-20', '2024-06-17', '2024-07-17', '2024-08-15',
+               '2024-10-02', '2024-11-15', '2024-11-20', '2024-12-25',
+               '2025-02-26', '2025-03-14', '2025-03-31', '2025-04-10',
+               '2025-04-14', '2025-04-18', '2025-05-01', '2025-08-15',
+               '2025-08-27', '2025-10-02', '2025-10-22', '2025-11-05',
+               '2025-12-25', '2026-01-26', '2026-03-03'],
+              dtype='datetime64[us]', freq=None)
+2026-03-15 03:08:55,987 | INFO | Data for ticker: INFY.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\INFY_NS_1d.parquet
+2026-03-15 03:08:55,990 | INFO | File already exists for ticker: HDFCBANK.NS at path: D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\HDFCBANK_NS_1d.parquet. Updating dataset.
+2026-03-15 03:08:56,010 | WARNING | Missing candles detected for ticker: HDFCBANK.NS. Missing timestamps: DatetimeIndex(['2020-02-21', '2020-03-10', '2020-04-02', '2020-04-06',
+               '2020-04-10', '2020-04-14', '2020-05-01', '2020-05-25',
+               '2020-10-02', '2020-11-16', '2020-11-30', '2020-12-25',
+               '2021-01-26', '2021-03-11', '2021-03-29', '2021-04-02',
+               '2021-04-14', '2021-04-21', '2021-05-13', '2021-07-21',
+               '2021-08-19', '2021-09-10', '2021-10-15', '2021-11-05',
+               '2021-11-19', '2022-01-26', '2022-03-01', '2022-03-18',
+               '2022-04-14', '2022-04-15', '2022-05-03', '2022-08-09',
+               '2022-08-15', '2022-08-31', '2022-10-05', '2022-10-26',
+               '2022-11-08', '2023-01-26', '2023-03-07', '2023-03-30',
+               '2023-04-04', '2023-04-07', '2023-04-14', '2023-05-01',
+               '2023-06-29', '2023-08-15', '2023-09-19', '2023-10-02',
+               '2023-10-24', '2023-11-14', '2023-11-27', '2023-12-25',
+               '2024-01-22', '2024-01-26', '2024-03-08', '2024-03-25',
+               '2024-03-29', '2024-04-11', '2024-04-17', '2024-05-01',
+               '2024-05-20', '2024-06-17', '2024-07-17', '2024-08-15',
+               '2024-10-02', '2024-11-15', '2024-11-20', '2024-12-25',
+               '2025-02-26', '2025-03-14', '2025-03-31', '2025-04-10',
+               '2025-04-14', '2025-04-18', '2025-05-01', '2025-08-15',
+               '2025-08-27', '2025-10-02', '2025-10-22', '2025-11-05',
+               '2025-12-25', '2026-01-26', '2026-03-03'],
+              dtype='datetime64[us]', freq=None)
+2026-03-15 03:08:56,027 | WARNING | Missing candles detected for ticker: HDFCBANK.NS. Missing timestamps: DatetimeIndex(['2020-02-21', '2020-03-10', '2020-04-02', '2020-04-06',
+               '2020-04-10', '2020-04-14', '2020-05-01', '2020-05-25',
+               '2020-10-02', '2020-11-16', '2020-11-30', '2020-12-25',
+               '2021-01-26', '2021-03-11', '2021-03-29', '2021-04-02',
+               '2021-04-14', '2021-04-21', '2021-05-13', '2021-07-21',
+               '2021-08-19', '2021-09-10', '2021-10-15', '2021-11-05',
+               '2021-11-19', '2022-01-26', '2022-03-01', '2022-03-18',
+               '2022-04-14', '2022-04-15', '2022-05-03', '2022-08-09',
+               '2022-08-15', '2022-08-31', '2022-10-05', '2022-10-26',
+               '2022-11-08', '2023-01-26', '2023-03-07', '2023-03-30',
+               '2023-04-04', '2023-04-07', '2023-04-14', '2023-05-01',
+               '2023-06-29', '2023-08-15', '2023-09-19', '2023-10-02',
+               '2023-10-24', '2023-11-14', '2023-11-27', '2023-12-25',
+               '2024-01-22', '2024-01-26', '2024-03-08', '2024-03-25',
+               '2024-03-29', '2024-04-11', '2024-04-17', '2024-05-01',
+               '2024-05-20', '2024-06-17', '2024-07-17', '2024-08-15',
+               '2024-10-02', '2024-11-15', '2024-11-20', '2024-12-25',
+               '2025-02-26', '2025-03-14', '2025-03-31', '2025-04-10',
+               '2025-04-14', '2025-04-18', '2025-05-01', '2025-08-15',
+               '2025-08-27', '2025-10-02', '2025-10-22', '2025-11-05',
+               '2025-12-25', '2026-01-26', '2026-03-03'],
+              dtype='datetime64[us]', freq=None)
+2026-03-15 03:08:56,031 | INFO | Data for ticker: HDFCBANK.NS saved successfully at D:\Quant_Daily_Learning\projects\Market Data Pipeline\data\raw\parquet\HDFCBANK_NS_1d.parquet
+2026-03-15 03:08:56,031 | INFO | Step 2: Cleaning Data
+2026-03-15 03:08:56,031 | INFO | Cleaning dataset for ADANIPORTS.NS
+2026-03-15 03:08:56,053 | WARNING | 83 missing timestamps detected
+2026-03-15 03:08:56,054 | WARNING | Example missing dates: DatetimeIndex(['2020-02-21', '2020-03-10', '2020-04-02', '2020-04-06',
+               '2020-04-10'],
+              dtype='datetime64[ns]', freq=None)
+2026-03-15 03:08:56,063 | INFO | Cleaning dataset for RELIANCE.NS
+2026-03-15 03:08:56,096 | WARNING | 83 missing timestamps detected
+2026-03-15 03:08:56,096 | WARNING | Example missing dates: DatetimeIndex(['2020-02-21', '2020-03-10', '2020-04-02', '2020-04-06',
+               '2020-04-10'],
+              dtype='datetime64[ns]', freq=None)
+2026-03-15 03:08:56,102 | INFO | Cleaning dataset for TCS.NS
+2026-03-15 03:08:56,126 | WARNING | 83 missing timestamps detected
+2026-03-15 03:08:56,126 | WARNING | Example missing dates: DatetimeIndex(['2020-02-21', '2020-03-10', '2020-04-02', '2020-04-06',
+               '2020-04-10'],
+              dtype='datetime64[us]', freq=None)
+2026-03-15 03:08:56,131 | INFO | Cleaning dataset for INFY.NS
+2026-03-15 03:08:56,151 | WARNING | 83 missing timestamps detected
+2026-03-15 03:08:56,152 | WARNING | Example missing dates: DatetimeIndex(['2020-02-21', '2020-03-10', '2020-04-02', '2020-04-06',
+               '2020-04-10'],
+              dtype='datetime64[us]', freq=None)
+2026-03-15 03:08:56,157 | INFO | Cleaning dataset for HDFCBANK.NS
+2026-03-15 03:08:56,177 | WARNING | 83 missing timestamps detected
+2026-03-15 03:08:56,178 | WARNING | Example missing dates: DatetimeIndex(['2020-02-21', '2020-03-10', '2020-04-02', '2020-04-06',
+               '2020-04-10'],
+              dtype='datetime64[us]', freq=None)
+2026-03-15 03:08:56,183 | INFO | Step 3: Generating Features
+2026-03-15 03:08:56,183 | INFO | Generating features for ADANIPORTS.NS
+2026-03-15 03:08:56,197 | INFO | Generating features for RELIANCE.NS
+2026-03-15 03:08:56,209 | INFO | Generating features for TCS.NS
+2026-03-15 03:08:56,222 | INFO | Generating features for INFY.NS
+2026-03-15 03:08:56,234 | INFO | Generating features for HDFCBANK.NS
+2026-03-15 03:08:56,247 | INFO | Pipeline execution completed successfully
